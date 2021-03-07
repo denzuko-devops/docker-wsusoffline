@@ -5,7 +5,6 @@ Using [WSUS Offline Update](http://wsusoffline.net/), you can update any compute
 <p align="center">
 <a href="https://hub.docker.com/r/r0gger/docker-wsusoffline"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/r0gger/docker-wsusoffline"/></a>
 <a href="https://hub.docker.com/r/r0gger/docker-wsusoffline"><img alt="Docker Stars" src="https://img.shields.io/docker/stars/r0gger/docker-wsusoffline"/></a>  
-<a href="https://hub.docker.com/r/r0gger/docker-wsusoffline"><img alt="Docker Build Status" src="https://img.shields.io/docker/build/r0gger/docker-wsusoffline"/></a> 
 <a href="https://github.com/R0GGER/docker-wsusoffline"><img alt="GitHub stars" src="https://img.shields.io/github/stars/r0gger/docker-wsusoffline?style=social"></a>         
 </p>  
 
@@ -108,6 +107,7 @@ ISO image - Profile "All" (All Windows and Office updates, 32-bit and 64-bit) = 
 Set the search order for the supported download utilities.   
    
 **Changelog:**  
+Aug 14, 2020 - Fix: update.sh - https   
 Jun 19, 2019 - New: use ISO creation script from wsusoffline  
 Nov 8, 2018 - New: Download utilities - aria2c and wget   
 Apr 19, 2018 - Fix: Root problem, credits to [bigwave](https://github.com/bigwave)   
